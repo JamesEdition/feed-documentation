@@ -2,7 +2,7 @@
 
 Version 3.2
 
-Description of the feed formats for https://www.jamesedition.com
+Description of the feed formats for [JamesEdition - The world's largest luxury marketplace](http://www.jamesedition.com)
 
 For Automobiles, Motorcycles, Real estates, Vacation rentals, Yachts and Jewellery listings.
 
