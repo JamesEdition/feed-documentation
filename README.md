@@ -64,3 +64,25 @@ empty, close them e.g. `<color />`
 
 Dealers with multiple offices are required to supply independent feeds (stand-alone files) for each office. These
 feeds will be connected with the unique JamesEdition office ID by the support or your account manager.
+
+### Generic Feed Information
+
+In the table below you can see the standard data entry options for the main feed information and the main dealership information.
+
+```
+<jamesedition_feed =”@version”> # Required, version has to be '3.0'
+  <feed_information>
+    <reference>REFERENCE</reverence> # Required, string (a-z, A-Z, 0-9, _-), your feed reference
+    <title>TITLE</title> # Required, string, your feed title
+    <description>DESCRIPTION</description> # Required, string, your description for the feed
+    <created>TIMESTAMP</created> # Required, date (y-m-d h:i:s), feed creation time
+    <updated>TIMESTAMP</updated> # Required, date (y-m-d h:i:s), feed update time
+  </feed_information>
+  <dealer>
+    <reference>REFERENCE</reference> # Optional, string, dealer reference
+    <name>NAME</name> # Required, string, dealer name
+    <id>ID</id> # Required, integer, the JamesEdition if for the dealer 
+  </dealer>
+</jamesedition_feed>
+```
+  
